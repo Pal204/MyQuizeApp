@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Quize"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/numberBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center_horizontal"
+        android:text="Addition Quize"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/alphaBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numberBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:textAllCaps="false"
+        android:text="Find Alphabets" />
+
+    <Button
+        android:id="@+id/blanksBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fill in the blancks"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/alphaBtn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+      />
+
+
+
+
+
+</RelativeLayout>
